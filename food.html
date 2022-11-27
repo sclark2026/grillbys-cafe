@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Stint+Ultra+Expanded&family=Work+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Grillbys</title>
+
+        <style>
+
+body {
+                background-color: #fffff3;
+                color:#1C2625;
+                padding: 0;
+                margin: 0;
+                font-family: 'Work Sans', sans-serif;
+            }
+
+            header {
+                width: 100%;
+                height: 350px;
+                background-image: url('barheader.png');
+                background-size: cover;
+                margin: 0 auto;
+                padding: 0;
+            }
+
+            .grillbys {
+            font-size: 120px;
+            font-family: 'Satisfy', cursive;
+            text-align: center;
+            animation: flicker 1.5s infinite alternate;
+            color: #fff;
+            position: absolute;
+            top: 30px;
+            left: 100px;
+            }
+
+            hr {
+                background-color: #FF8954;
+                height: 4px;
+                width: 325px;
+                border-width: 0;
+                border-radius: 5px;
+                position: absolute;
+                top: 140px;
+                left: 140px;
+            }
+
+            .sub {
+                font-size:  25px;
+                font-family: 'Stint Ultra Expanded', cursive;
+                text-align: center;
+                animation: flicker 1.5s infinite alternate;
+                color: #fff;
+                position: absolute;
+                top: 156px;
+                left: 160px;
+            }
+
+            @keyframes flicker {
+                
+            0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+                text-shadow:
+                0 0 4px #fff,
+                0 0 11px #fff,
+                0 0 19px #fff,
+                0 0 40px #FF8954,
+                0 0 80px #FF8954,
+                0 0 90px #FF8954,
+                0 0 100px #FF8954,
+                0 0 150px #FF8954;
+            
+            }
+            
+            20%, 24%, 55% {        
+                text-shadow: none;
+            }    
+            }
+
+            .navth {
+                color: #fff;
+                font-size:  40px;
+                font-family: 'Stint Ultra Expanded', cursive;
+                padding-left: 170px;
+            }
+
+            nav {
+                position: absolute;
+                top: 135px;
+                left: 470px;
+            }
+
+            nav a:hover{
+                color: #fff;
+                animation: flicker 1.5s infinite alternate;
+                text-decoration: none;
+            }
+            
+            nav a:link, a:visited, a:active {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            aside {
+                font-size: 120px;
+                font-family: 'Satisfy', cursive;
+                text-align: center;
+                width: 800px;
+                height: 100%;
+                position: absolute; 
+                left: 6%; 
+                top: 28%; 
+                padding: 10px; 
+                border: 10px; 
+                background-color: #120C0A;
+                border-radius: 25px;
+                padding-top: 30px;
+                padding-bottom: 50px;
+            }
+            
+            th {
+                color: #fff;
+                font-size:  40px;
+                font-family: 'Stint Ultra Expanded', cursive;
+                padding: 10px;
+                max-width: 700px;
+                text-align: center;
+            }
+
+            td {
+                color: #fff;
+                font-size:  20px;
+                font-family: 'Work Sans', sans-serif;
+                padding: 10px;
+                max-width: 700px;
+                text-align: center;
+            }
+
+            .price {
+                color: #fff;
+                font-size:  30px;
+                font-family: 'Stint Ultra Expanded', cursive; 
+                padding: 10px;
+                text-align: center;
+                border-color: #FF8954;
+                border-width: 3px;
+                border-style: solid;
+                border-radius: 25px;
+            }
+
+            footer {
+                position: absolute;
+                top: 150%;
+                background-color: #120C0A;
+                width: 100%;
+                color:#fff;
+                text-align: center;
+                font-size: 70px;
+                font-family: 'Satisfy', cursive;
+                text-align: center;
+                color: #fff;
+                position: absolute;
+                padding-top: 20px;
+                padding-bottom: 40px;
+            }
+
+            section {
+                position: absolute;
+                width: 100%;
+                top: 35%;
+            }
+
+            h1 {
+                font-size: 65px;
+                color: #1C2625;
+                font-family: 'Stint Ultra Expanded', cursive;
+                text-decoration: underline;
+                text-decoration-color: #809C99;
+                margin-left: 40%;
+            }
+
+            article {
+                width: 100%;
+                font-size: 25px;
+                margin-top: 40px;
+                background-color: #120C0A;
+                font-family: 'Work Sans', sans-serif;
+            }
+
+            h3 {
+                font-family: 'Work Sans', sans-serif;
+                color: #fff;
+                font-size: 20px;
+            }
+
+            .meals {
+                background-color: #120C0A;
+                color: #1C2625;
+                padding: 10px;
+                text-align: center;
+                width: 100%;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            
+            h2 {
+                font-size: 1px;                
+                color: #fffff3;
+                float: left;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <hr>
+            <div class="grillbys">Grillby's</div>
+            <div class="sub">CAFE & BAR</div>
+            <img src="stamp.png" alt="stamp" width="1750" height="980" style="position: absolute; left: 280px; top: -12%">
+        </header>
+
+        <nav>
+            <table>
+                <tr>
+                    <th class="navth"><a href="index.html">Home</a></th>
+                    <th class="navth"><a href="drink.html">Drinks</a></th>
+                    <th class="navth"><a href="rest.html">Info</a></th>
+                </tr>
+            </table>
+        </nav>
+
+        <section>
+            <h1>
+                Meals
+            </h1>
+            <article>
+                <h2>a</h2>
+                <table class="meals">
+                    <tr>
+                        <th><img src="burgries.jpeg" alt="burger and fries" width="400" height="400" style="object-fit: cover; border-radius: 50%; border-width: 3px; border-style: dashed; border-color: #fff; object-position: -200px;"><br>Burger and Fries</th>
+                        <th><img src="nacho.jpeg" alt="nachos" width="400" height="400" style="object-fit: cover; border-radius: 50%; border-width: 3px; border-style: dashed; border-color: #fff;"><br>Nachos</th>
+                        <th><img src="taco.webp" alt="tacos" width="400" height="400" style="object-fit: cover; border-radius: 50%; border-width: 3px; border-style: dashed; border-color: #fff;"><br>Tacos</th>
+                        <th><img src="fishnchips.jpeg" alt="fish and chips" width="400" height="400" style="object-fit: cover; border-radius: 50%; border-width: 3px; border-style: dashed; border-color: #fff"><br>Fish 'n' Chips</th>
+                    </tr>
+                    <tr>
+                        <td>Curious as to what cardiac arrest feels like? Try Grillby's Brobdingnagian Burger! With 5 pounds of vegan-unfriendly cheese and 1 whole pound of vegan-hostile meat, you and your family of twenty will never go hungry ever again! Fries are 100% vegan, of course.</td>
+                        <td>Are you a tyrant that enjoys watching tortilla chips helplessly drown in salsa, guacamole, queso, or sour cream? You're in luck! Grillby's Unspeakable Abomination will stun you with its creamy mixture of ALL OF THE ABOVE. Perfect for sharing with your family and sworn enemies!</td>
+                        <td>Do you pride yourself in your homemade taco recipe? Fear not! Biting into one of our fluffy soft-shelled Magnificent Tacos, filled to the brim with freshly chargrilled chicken, will make you weep with overwhelming self-reproach as you realize that anything you would ever make is dirt in comparison!</td>
+                        <td>Try Grillby's Fish 'n' Chips, made from the freshest of fish and the sweetest of chips!</td>
+                    </tr>
+                    <tr>
+                        <td class="price">120 G</td>
+                        <td class="price">200 G</td>
+                        <td class="price">220 G</td>
+                        <td class="price">105 G</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+
+        <footer>
+            Grillby's
+            <h3>Copyright &copy; 2022 Grillby's, Inc.</h3>
+        </footer>
+    </body>
+</html>
